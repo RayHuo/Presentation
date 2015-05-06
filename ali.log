@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2015.5.5)  6 MAY 2015 14:01
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2015.5.5)  6 MAY 2015 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1887,17 +1887,6 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  []
 
 [2]
-LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 74.
-LaTeX Font Info:    Font shape `EU1/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `EU1/lmss/bx/sl' tried instead on input line 74.
-
-
-
-LaTeX Font Warning: Font shape `EU1/SimHei(0)/bx/it' undefined
-(Font)              using `EU1/SimHei(0)/bx/n' instead on input line 74.
-
-
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1905,8 +1894,6 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [3
 
 ]
-File: ./data_info.jpg Graphic file (type QTm)
- <use  "./data_info.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1914,8 +1901,6 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [4
 
 ]
-File: ./data_details.jpg Graphic file (type QTm)
- <use  "./data_details.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1923,38 +1908,32 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [5
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 148.
+LaTeX Font Info:    Try loading font information for U+msa on input line 109.
  (d:/Program Files/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 148.
+LaTeX Font Info:    Try loading font information for U+msb on input line 109.
 
 (d:/Program Files/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 109.
+
 LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <8> not available
-(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 148.
+(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 109.
 
 LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <6> not available
-(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 148.
-
-LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <14.05> not available
-(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 148.
-
-LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <10.54> not available
-(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 148.
-
-LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <7.53> not available
-(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 148.
-
-LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 148.
+(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 109.
 
 LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <10> not available
-(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 148.
+(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 109.
 
 LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <7> not available
-(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 148.
+(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 109.
+
+LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <5> not available
+(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 109.
 
 
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
@@ -1964,6 +1943,11 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [6
 
 ]
+
+LaTeX Font Warning: Font shape `EU1/SimHei(0)/m/it' undefined
+(Font)              using `EU1/SimHei(0)/m/n' instead on input line 127.
+
+
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1978,8 +1962,6 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [8
 
 ]
-File: ./process.jpg Graphic file (type QTm)
- <use  "./process.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1994,6 +1976,8 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [10
 
 ]
+File: ./data_info.jpg Graphic file (type QTm)
+ <use  "./data_info.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2001,6 +1985,8 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [11
 
 ]
+File: ./data_details.jpg Graphic file (type QTm)
+ <use  "./data_details.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2008,6 +1994,19 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [12
 
 ]
+LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <14.05> not available
+(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 259.
+
+LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <10.54> not available
+(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 259.
+
+LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <7.53> not available
+(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 259.
+
+LaTeX Font Info:    Font shape `EU1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `EU1/lmss/m/sl' tried instead on input line 259.
+
+
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2022,8 +2021,6 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [14
 
 ]
-File: ./MLP.png Graphic file (type QTm)
- <use  "./MLP.png" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2031,8 +2028,8 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [15
 
 ]
-File: ./SAE.png Graphic file (type QTm)
- <use  "./SAE.png" >
+File: ./process.jpg Graphic file (type QTm)
+ <use  "./process.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2068,12 +2065,6 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [20
 
 ]
-File: ./odps_query.jpg Graphic file (type QTm)
- <use  "./odps_query.jpg" >
-Overfull \vbox (0.86087pt too high) detected at line 390
- []
-
-
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2081,6 +2072,8 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [21
 
 ]
+File: ./MLP.png Graphic file (type QTm)
+ <use  "./MLP.png" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2088,6 +2081,8 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [22
 
 ]
+File: ./SAE.png Graphic file (type QTm)
+ <use  "./SAE.png" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2095,8 +2090,6 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [23
 
 ]
-File: ./XLab.jpg Graphic file (type QTm)
- <use  "./XLab.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2104,8 +2097,6 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [24
 
 ]
-File: ./XLab_table.jpg Graphic file (type QTm)
- <use  "./XLab_table.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2113,8 +2104,6 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [25
 
 ]
-File: ./XLab_models.jpg Graphic file (type QTm)
- <use  "./XLab_models.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2122,8 +2111,6 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [26
 
 ]
-File: ./XLab_train.jpg Graphic file (type QTm)
- <use  "./XLab_train.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2131,8 +2118,12 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [27
 
 ]
-File: ./XLab_result.jpg Graphic file (type QTm)
- <use  "./XLab_result.jpg" >
+File: ./odps_query.jpg Graphic file (type QTm)
+ <use  "./odps_query.jpg" >
+Overfull \vbox (0.86087pt too high) detected at line 501
+ []
+
+
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2140,8 +2131,6 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [28
 
 ]
-File: ./XLab_script.jpg Graphic file (type QTm)
- <use  "./XLab_script.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2156,8 +2145,8 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [30
 
 ]
-File: ./MapReduce_1.png Graphic file (type QTm)
- <use  "./MapReduce_1.png" >
+File: ./XLab.jpg Graphic file (type QTm)
+ <use  "./XLab.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2165,12 +2154,8 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [31
 
 ]
-File: ./MapReduce_2.png Graphic file (type QTm)
- <use  "./MapReduce_2.png" >
-Overfull \vbox (8.28668pt too high) detected at line 501
- []
-
-
+File: ./XLab_table.jpg Graphic file (type QTm)
+ <use  "./XLab_table.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2178,6 +2163,8 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [32
 
 ]
+File: ./XLab_models.jpg Graphic file (type QTm)
+ <use  "./XLab_models.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2185,8 +2172,8 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [33
 
 ]
-File: ./WordCount_map.png Graphic file (type QTm)
- <use  "./WordCount_map.png" >
+File: ./XLab_train.jpg Graphic file (type QTm)
+ <use  "./XLab_train.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2194,8 +2181,8 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [34
 
 ]
-File: ./WordCount_combine.png Graphic file (type QTm)
- <use  "./WordCount_combine.png" >
+File: ./XLab_result.jpg Graphic file (type QTm)
+ <use  "./XLab_result.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2203,8 +2190,8 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [35
 
 ]
-File: ./WordCount_reduce.png Graphic file (type QTm)
- <use  "./WordCount_reduce.png" >
+File: ./XLab_script.jpg Graphic file (type QTm)
+ <use  "./XLab_script.jpg" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2219,6 +2206,8 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [37
 
 ]
+File: ./MapReduce_1.png Graphic file (type QTm)
+ <use  "./MapReduce_1.png" >
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -2226,11 +2215,72 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 [38
 
 ]
+File: ./MapReduce_2.png Graphic file (type QTm)
+ <use  "./MapReduce_2.png" >
+Overfull \vbox (8.28668pt too high) detected at line 612
+ []
+
+
 Overfull \hbox (20.8514pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [39
+
+]
+Overfull \hbox (20.8514pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[40
+
+]
+File: ./WordCount_map.png Graphic file (type QTm)
+ <use  "./WordCount_map.png" >
+Overfull \hbox (20.8514pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[41
+
+]
+File: ./WordCount_combine.png Graphic file (type QTm)
+ <use  "./WordCount_combine.png" >
+Overfull \hbox (20.8514pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[42
+
+]
+File: ./WordCount_reduce.png Graphic file (type QTm)
+ <use  "./WordCount_reduce.png" >
+Overfull \hbox (20.8514pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[43
+
+]
+Overfull \hbox (20.8514pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[44
+
+]
+Overfull \hbox (20.8514pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[45
+
+]
+Overfull \hbox (20.8514pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[46
 
 ]
 \tf@nav=\write6
@@ -2242,24 +2292,24 @@ Overfull \hbox (20.8514pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `ali.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 579.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 579.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 690.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 690.
  (./ali.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 579.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 579.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 690.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 690.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 579.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 690.
  ) 
 Here is how much of TeX's memory you used:
- 35324 strings out of 493734
- 710155 string characters out of 6144009
- 736681 words of memory out of 5000000
- 38039 multiletter control sequences out of 15000+600000
- 16547 words of font info for 106 fonts, out of 8000000 for 9000
+ 35456 strings out of 493734
+ 715010 string characters out of 6144009
+ 736873 words of memory out of 5000000
+ 38163 multiletter control sequences out of 15000+600000
+ 17232 words of font info for 114 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 69i,16n,69p,10361b,619s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,16n,69p,10361b,621s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ali.pdf (39 pages).
+Output written on ali.pdf (46 pages).

@@ -16,57 +16,175 @@
 \titlepage
 
 
-\begin{frame}{主要内容}
+\begin{frame}[t]{主要内容}
 	\begin{itemize}
 		\item {研究背景}
 		\item {改进的程序分割方法
-			\begin{itemize}
-				\item NLP的新程序分割方法
-				\item DLP的新程序分割方法
-				\item 强程序分割方法
-				\item 计算复杂性分析
-			\end{itemize}
+%			\begin{itemize}
+%				\item NLP的新程序分割方法
+%				\item DLP的新程序分割方法
+%				\item 强程序分割方法
+%				\item 计算复杂性分析
+%			\end{itemize}
 			}
 		\item {程序化简}
 		\item {实验与分析
-			\begin{itemize}
-				\item 实验环境
-				\item 程序分割实验
-				\item 程序化简实验
-			\end{itemize}
+%			\begin{itemize}
+%				\item 实验环境
+%				\item 程序分割实验
+%				\item 程序化简实验
+%			\end{itemize}
 			}
 		\item {总结与展望
-			\begin{itemize}
-				\item 研究总结
-				\item 研究展望
-			\end{itemize}
+%			\begin{itemize}
+%				\item 研究总结
+%				\item 研究展望
+%			\end{itemize}
 			}
 	\end{itemize}
 \end{frame}
 
 
 %%%%%%%%%%%%%%%%%  研究背景  %%%%%%%%%%%%%%%%%
-\begin{frame}{研究背景}
-	\begin{itemize}
+\begin{frame}[t]{研究背景}
+	\begin{enumerate}
 		\item 什么是ASP逻辑程序
 		\item 分割集和程序分割方法
-		\item 分割理论的应用
+%		\item 分割理论的应用
+	\end{enumerate}
+\end{frame}
+
+
+\begin{frame}[t]{什么是ASP逻辑程序}
+	% 根据发展历史来引出ASP
+	ASP逻辑程序形成与发展历史：
+	\begin{itemize}
+		\item 70年代，Kowalski提出逻辑可以作为程序语言的基础的观点
+		\item 1978年，Clark提出失败即否定和Clark完备
+		\item 1979年，Colmerauer发明了第一种逻辑程序语言：PROLOG
+		\item 1988年，Gelfond和Lifschitz提出稳定模型语义
+		\item 90年代，回答集编程(ASP : Answer Set Program)形成
+		\item 90年代至今，一系列ASP求解器诞生，ASP语义也在不断扩展
 	\end{itemize}
 \end{frame}
 
 
-\begin{frame}{什么是ASP逻辑程序}
+\begin{frame}[t]{什么是ASP逻辑程序}
 	% 根据发展历史来引出ASP
+	ASP逻辑程序形成与发展历史：
 	\begin{itemize}
-		\item 
-		\item 
-		\item 
-		\item 
-		
+		\item 70年代，Kowalski提出逻辑可以作为程序语言的基础的观点
+		\item 1978年，Clark提出失败即否定和Clark完备
+		\item 1979年，Colmerauer发明了第一种逻辑程序语言：PROLOG
+		\item 1988年，Gelfond和Lifschitz提出稳定模型语义
+		\item 90年代，回答集编程(ASP : Answer Set Program)形成
+		\item 90年代至今，一系列ASP求解器诞生，ASP语义也在不断扩展
 	\end{itemize}
+	
+
+	\textbf{ASP中的一个研究热点是：ASP求解的提速。}
+	% 而1994年，Lifschitz和Turner提出的分割理论就是给ASP求解提速的一个方法
+	
+\end{frame}
+
+
+\begin{frame}[t]{分割集和程序分割方法}
+	% Lifschitz和Turner分割集和程序分割方法
+	\begin{itemize}
+		\item \textbf{分割集(Splitting Set)：}给定一个ASP逻辑成$P$，其分割集时一个原子集$U$，$U$满足：对于任意的规则$r \in P$有$head(r) \cap U \neq \emptyset$蕴涵$Atoms(r) \subseteq U$。
+		\item {\textbf{底部和顶部(bottom \& top)：}标记$P$关于$U$的底部为$b_U(P)$，顶部为$t_U(P)$，并定义为：
+			\begin{itemize}
+				\item $b_U(P) = \{ r \in P~|~head(r) \cap U \neq \emptyset \}$
+				\item $t_U(P) = P~\backslash~b_U(P)$
+			\end{itemize}
+			}
+		\item {\textbf{化简操作$e_U(P,X)$：}其中$X$为原子集，对$P$执行以下两个步骤：
+			\begin{itemize}
+				\item 删除符合以下条件的规则$r$：$head(r) \cap X \neq \emptyset$且$body^+(r) \cap U \nsubseteq X$，或者$(body^-(r) \cap U) \cap X \neq \emptyset$；
+				\item 在剩下的规则的体部中把所有形如$a$或$not~a$的文字删掉，其中$a \in U$。
+			\end{itemize}
+			}
+	\end{itemize}
+	
+\end{frame}
+
+
+\begin{frame}[t]{分割集和程序分割方法}
+	\begin{itemize}
+		\item {\textbf{方案(Solution)：} $P$关于$U$的一个方案是一组原子集$\langle X,Y \rangle$，具体地：
+			\begin{itemize}
+				\item $X$是$b_U(P)$的回答集；
+				\item $Y$是$e_U(P \backslash b_U(P), X)$的回答集。
+			\end{itemize}
+			}
+	\end{itemize}
+	
+	
+	\begin{theorem}[分割集理论]
+		已知ASP逻辑程序$P$和其分割集$U$，则一个原子集$S$是$P$的回答集，当且仅当$S = X \cup Y$，其中$\langle X,Y \rangle$是$P$关于$U$的一个方案。
+	\end{theorem}
+	
+\end{frame}
+
+
+\begin{frame}[t]{分割集和程序分割方法}
+	\begin{itemize}
+		\item {\textbf{方案(Solution)：} $P$关于$U$的一个方案是一组原子集$\langle X,Y \rangle$，具体地：
+			\begin{itemize}
+				\item $X$是$b_U(P)$的回答集；
+				\item $Y$是$e_U(P \backslash b_U(P), X)$的回答集。
+			\end{itemize}
+		}
+	\end{itemize}
+	
+	
+	\begin{theorem}[分割集理论]
+		已知ASP逻辑程序$P$和其分割集$U$，则一个原子集$S$是$P$的回答集，当且仅当$S = X \cup Y$，其中$\langle X,Y \rangle$是$P$关于$U$的一个方案。
+	\end{theorem}
+	
+	\vspace{0.5cm}
+	
+	\textbf{局限性}：
+	\begin{itemize}
+		\item 对于大部分程序，其分割集是：$\emptyset$或$Atoms(P)$
+	\end{itemize}
+	
+\end{frame}
+
+
+% 分割理论的应用
+%\begin{frame}[t]{分割理论的应用}
+%	分割理论的具体应用例子：
+%	\begin{itemize}
+%		\item 2008年，Gebser以分割集理论作为基础实现了增量式ASP求解器――iclingo；
+%		\item 2008年，Oikarinen和Janhunen把分割集的思想拓展到了带嵌套表达式的逻辑程序中；
+%		\item 2009年，Ferraris则在稳定模型语义下的任意一阶逻辑中引入了分割集的使用。
+%	\end{itemize}
+%\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%% 改进的程序分割方法 %%%%%%%%%%%%%
+\begin{frame}[t]{改进的程序分割方法}
+	\begin{enumerate}
+		\item NLP的新程序分割方法
+		\item DLP的新程序分割方法
+		\item 强程序分割方法
+		\item 计算复杂性分析
+	\end{enumerate}
+\end{frame}
+
+
+\begin{frame}[t]{NLP的新程序分割方法}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
 
 
 \begin{frame}{数据类型}
