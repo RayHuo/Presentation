@@ -1,7 +1,7 @@
 \documentclass{beamer}
 \usepackage[noindent]{ctex}
 \usetheme{Madrid}
-\title{一种改进的回答集逻辑程序分割方法 \\ 及程序化简研究}
+\title{一种改进的回答集逻辑程序分割方法\\及程序化简研究}
 \author{霍子伟}
 \institute{中山大学软件学院}
 \setbeamertemplate{navigation symbols}{}
@@ -50,7 +50,7 @@
 	\begin{enumerate}
 		\item 什么是ASP逻辑程序
 		\item 分割集和程序分割方法
-%		\item 分割理论的应用
+		\item 分割理论的局限性
 	\end{enumerate}
 \end{frame}
 
@@ -127,28 +127,8 @@
 \end{frame}
 
 
-\begin{frame}[t]{分割集和程序分割方法}
-	\begin{itemize}
-		\item {\textbf{方案(Solution)：} $P$关于$U$的一个方案是一组原子集$\langle X,Y \rangle$，具体地：
-			\begin{itemize}
-				\item $X$是$b_U(P)$的回答集；
-				\item $Y$是$e_U(P \backslash b_U(P), X)$的回答集。
-			\end{itemize}
-		}
-	\end{itemize}
-	
-	
-	\begin{theorem}[分割集理论]
-		已知ASP逻辑程序$P$和其分割集$U$，则一个原子集$S$是$P$的回答集，当且仅当$S = X \cup Y$，其中$\langle X,Y \rangle$是$P$关于$U$的一个方案。
-	\end{theorem}
-	
-	\vspace{0.5cm}
-	
-	\textbf{局限性}：
-	\begin{itemize}
-		\item 对于大部分程序，其分割集是：$\emptyset$或$Atoms(P)$
-	\end{itemize}
-	
+\begin{frame}[t]{分割理论的局限性}
+	分割集对应子图的特性：
 \end{frame}
 
 
@@ -177,6 +157,8 @@
 
 
 \begin{frame}[t]{NLP的新程序分割方法}
+	
+	
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
